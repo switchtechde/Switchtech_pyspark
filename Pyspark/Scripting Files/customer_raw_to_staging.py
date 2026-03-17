@@ -50,3 +50,5 @@ Df5.write.format("bigquery")\
                 .option("partitionType","Day")\
                 .option("clustering_field","col1,Col2")\
                 .save()
+
+    
